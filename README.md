@@ -15,7 +15,7 @@ Pushing and pulling code
 Working with branches
 Team collaboration
 How to Run
-git clone https://github.com/your-username/githubpractice.git
+git clone https://github.com/abdullahtalha22/github-practice-app.git
 cd githubpractice
 flutter pub get
 flutter run
