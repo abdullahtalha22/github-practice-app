@@ -4,13 +4,13 @@ class CustomButton extends StatelessWidget {
   final String text;
   final VoidCallback onPressed;
 
-  const CustomButton({required this.text, required this.onPressed});
+  const CustomButton ({required this.text, required this.onPressed});
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        minimumSize: Size(double.infinity, 50),
+        minimumSize: Size (double.infinity, 50),
       ),
       onPressed: onPressed,
       child: Text(text),
