@@ -1,16 +1,42 @@
-# githubpractice
+GitHub Practice App
 
-A new Flutter project.
+This is a simple Flutter project created to practice Git and GitHub workflows.
 
-## Getting Started
+Features
+Login screen (dummy)
+Home screen with tasks
+Profile screen
+Purpose
 
-This project is a starting point for a Flutter application.
+This project is used to learn:
 
-A few resources to get you started if this is your first Flutter project:
+Git commands
+Pushing and pulling code
+Working with branches
+Team collaboration
+How to Run
+git clone https://github.com/abdullahtalha22/github-practice-app.git
+cd githubpractice
+flutter pub get
+flutter run
+Git Practice
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Create a branch:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+git checkout -b feature-name
+
+Add and commit:
+
+git add .
+git commit -m "your message"
+
+Push code:
+
+git push origin feature-name
+
+Pull latest code:
+
+git pull origin main
+Note
+
+This is a practice project for learning Git and team workflow.
